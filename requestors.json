@@ -15,28 +15,28 @@
                     "en": "Ivido PHE"
                 },
                 "info": {
-                    "nl": "Je moet je kenbaar maken voor het gebruik van Ivido. Hiervoor laad je nu eerst je gegevens in IRMA.\n## Wat is Ivido PGO?\nIvido is je Persoonlijke Gezondheidsomgeving (PGO) waar je al je gegevens over jouw gezondheid kunt opslaan en delen met jouw zorgnetwerk. Een omgeving met begrijpelijke informatie en relevante applicaties, die een leven lang meegaat. Je gebruikt IRMA om je te registreren en om in te loggen bij Ivido PGO.",
-                    "en": "You must register for using Ivido. To do this, you now first add your data into IRMA.\n ## What is Ivido PHE?\nIvido is your Personal Health Environment (PHE) where you can store and share all your data about your health with your healthcare network. An environment with understandable information and relevant applications that will last a lifetime. You use IRMA to register and to log in to Ivido PHE."
+                    "nl": "## Inloggen bij Ivido\n\nJe hebt een toegangsbewijs nodig om in te loggen bij Ivido. Hiervoor haal je jouw gegevens op in IRMA.",
+                    "en": "## Log in at Ivido\n\nYou need an Ivido pass to login at Ivido. For this you retrieve your data in IRMA."
                 },
                 "faq": [
-                    {
-                        "question": {
-                            "nl": "Waar haal je de gegevens op?",
-                            "en": "Where do you get the data?"
-                        },
-                        "answer": {
-                            "nl": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                        }
-                    },
                     {
                         "question": {
                             "nl": "Welke gegevens haal je op?",
                             "en": "Which data are added?"
                         },
                         "answer": {
-                            "nl": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            "nl": "Je haalt je persoonsgegevens op. Je hebt deze gegevens nodig om te laten zien wie je bent. Zo kan alleen jij inloggen op jouw account.",
+                            "en": "You retrieve your personal data. You need this data to show who you are. That way only you can log in on your account."
+                        }
+                    },
+                    {
+                        "question": {
+                            "nl": "Waar haal je de gegevens op?",
+                            "en": "Where do you get the data?"
+                        },
+                        "answer": {
+                            "nl": "Je haalt je persoonsgegevens op uit de Basis Registratie Personen. Je logt in met DigiD bij de gemeente Nijmegen. Ook als je in een andere gemeente woont. De gemeente Nijmegen biedt deze dienst namelijk aan voor heel Nederland.",
+                            "en": "You retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You log in with DigiD at the municipality of Nijmegen. Even if you live in another city. Nijmegen offers this service for everyone with a DigiD."
                         }
                     },
                     {
@@ -45,22 +45,28 @@
                             "en": "How does it work?"
                         },
                         "answer": {
-                            "nl": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            "nl": "Jouw inloggegevens worden alleen opgeslagen in de IRMA app op jouw telefoon. Om in te loggen bij Ivido laat je met de IRMA app zien wie je bent.",
+                            "en": "Your login data are stored only in your IRMA app on your phone. To log in at Ivido you show who you are with your IRMA app."
+                        }
+                    },
+                    {
+                        "question": {
+                            "nl": "Wat is Ivido?",
+                            "en": "What is Ivido?"
+                        },
+                        "answer": {
+                            "nl": "Ivido is een Persoonlijke Gezondheidsomgeving (afgekort: PGO). In Ivido kun je alles over jouw gezondheid opslaan. Je kiest zelf met wie je deze gegevens deelt. Je gebruikt IRMA om te registreren en in te loggen op Ivido.",
+                            "en": "Ivido is a Personal Health Environment (PHE, dutch: PHO). In Ivido you can store everything about your healt. You choose yourself with who you share this data. You use IRMA to register and log in at Ivido."
                         }
                     }
                 ],
-                "intro": {
-                    "nl": "Doorloop eenmalig onderstaande stappen om toegang tot Ivido PGO te krijgen.",
-                    "en": "Go through the steps below once to gain access to Ivido PHE."
-                },
                 "successHeader": {
                     "nl": "Gelukt!",
                     "en": "Done!"
                 },
                 "successText": {
-                    "nl": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "nl": "Je kunt nu inloggen bij Ivido.",
+                    "en": "Je kunt nu inloggen bij Ivido."
                 },
                 "expandDependencies": false,
                 "contents": [
@@ -70,8 +76,8 @@
                                 "type": "credential",
                                 "credential": "pbdf.gemeente.personalData",
                                 "text": {
-                                    "en": "Retrieve your personal data from the dutch personal records database (\"basisregistratie personen\", BRP). You need this information to show who you are. You log in with your DigiD at the municipality of Nijmegen, which offers this for all dutch citizens.",
-                                    "nl": "Haal je persoonsgegevens op uit het basisregistratie personen (BRP). Je hebt deze gegevens nodig om te laten zien wie je bent. Je logt in met je DigiD bij de gemeente Nijmegen die dit voor heel Nederland aanbiedt."
+                                    "nl": "Haal je persoonsgegevens op uit de Basis Registratie Personen. Je hebt deze gegevens nodig om te laten zien wie je bent. Je logt in met DigiD bij de gemeente Nijmegen die deze dienst voor heel Nederland aanbiedt.",
+                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You need this information to show who you are. You log in with your DigiD at the municipality of Nijmegen, which offers this for everyone with a DigiD."
                                 }
                             }
                         ]
@@ -82,8 +88,8 @@
                                 "type": "credential",
                                 "credential": "pbdf.ivido.login",
                                 "text": {
-                                    "en": "Retrieve your Ivido Login data from Ivido. You can use this to log in at Ivido PHE.",
-                                    "nl": "Haal je Ivido Login-gegevens op bij Ivido. Hiermee kun je bij Ivido PGO inloggen."
+                                    "nl": "Haal je toegangsbewijs op bij Ivido. Zo kun je makkelijk en veilig bij Ivido inloggen.",
+                                    "en": "Retrieve your Ivido login pass. This way you can log at Ivido in easily and safely."
                                 }
                             }
                         ]
@@ -98,28 +104,28 @@
                     "en": "Ivido PHE"
                 },
                 "info": {
-                    "nl": "Je moet je kenbaar maken voor het gebruik van Ivido. Hiervoor laad je nu eerst je gegevens in IRMA.\n## Wat is Ivido PGO?\nIvido is je Persoonlijke Gezondheidsomgeving (PGO) waar je al je gegevens over jouw gezondheid kunt opslaan en delen met jouw zorgnetwerk. Een omgeving met begrijpelijke informatie en relevante applicaties, die een leven lang meegaat. Je gebruikt IRMA om je te registreren en om in te loggen bij Ivido PGO.",
-                    "en": "You must register for using Ivido. To do this, you now first add your data into IRMA.\n ## What is Ivido PHE?\nIvido is your Personal Health Environment (PHE) where you can store and share all your data about your health with your healthcare network. An environment with understandable information and relevant applications that will last a lifetime. You use IRMA to register and to log in to Ivido PHE."
+                    "nl": "## Inloggen bij Ivido\n\nJe hebt een toegangsbewijs nodig om in te loggen bij Ivido. Hiervoor haal je jouw gegevens op in IRMA.",
+                    "en": "## Log in at Ivido\n\nYou need an Ivido pass to login at Ivido. For this you retrieve your data in IRMA."
                 },
                 "faq": [
-                    {
-                        "question": {
-                            "nl": "Waar haal je de gegevens op?",
-                            "en": "Where do you get the data?"
-                        },
-                        "answer": {
-                            "nl": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                        }
-                    },
                     {
                         "question": {
                             "nl": "Welke gegevens haal je op?",
                             "en": "Which data are added?"
                         },
                         "answer": {
-                            "nl": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            "nl": "Je haalt je persoonsgegevens op. Je hebt deze gegevens nodig om te laten zien wie je bent. Zo kan alleen jij inloggen op jouw account.",
+                            "en": "You retrieve your personal data. You need this data to show who you are. That way only you can log in on your account."
+                        }
+                    },
+                    {
+                        "question": {
+                            "nl": "Waar haal je de gegevens op?",
+                            "en": "Where do you get the data?"
+                        },
+                        "answer": {
+                            "nl": "Je haalt je persoonsgegevens op uit de Basis Registratie Personen. Je logt in met DigiD bij de gemeente Nijmegen. Ook als je in een andere gemeente woont. De gemeente Nijmegen biedt deze dienst namelijk aan voor heel Nederland.",
+                            "en": "You retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You log in with DigiD at the municipality of Nijmegen. Even if you live in another city. Nijmegen offers this service for everyone with a DigiD."
                         }
                     },
                     {
@@ -128,22 +134,28 @@
                             "en": "How does it work?"
                         },
                         "answer": {
-                            "nl": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            "nl": "Jouw inloggegevens worden alleen opgeslagen in de IRMA app op jouw telefoon. Om in te loggen bij Ivido laat je met de IRMA app zien wie je bent.",
+                            "en": "Your login data are stored only in your IRMA app on your phone. To log in at Ivido you show who you are with your IRMA app."
+                        }
+                    },
+                    {
+                        "question": {
+                            "nl": "Wat is Ivido?",
+                            "en": "What is Ivido?"
+                        },
+                        "answer": {
+                            "nl": "Ivido is een Persoonlijke Gezondheidsomgeving (afgekort: PGO). In Ivido kun je alles over jouw gezondheid opslaan. Je kiest zelf met wie je deze gegevens deelt. Je gebruikt IRMA om te registreren en in te loggen op Ivido.",
+                            "en": "Ivido is a Personal Health Environment (PHE, dutch: PHO). In Ivido you can store everything about your healt. You choose yourself with who you share this data. You use IRMA to register and log in at Ivido."
                         }
                     }
                 ],
-                "intro": {
-                    "nl": "Doorloop eenmalig onderstaande stappen om toegang tot Ivido PGO te krijgen.",
-                    "en": "Go through the steps below once to gain access to Ivido PHE."
-                },
                 "successHeader": {
                     "nl": "Gelukt!",
                     "en": "Done!"
                 },
                 "successText": {
-                    "nl": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    "nl": "Je kunt nu inloggen bij Ivido.",
+                    "en": "Je kunt nu inloggen bij Ivido."
                 },
                 "expandDependencies": false,
                 "contents": [
@@ -153,8 +165,8 @@
                                 "type": "credential",
                                 "credential": "irma-demo.gemeente.personalData",
                                 "text": {
-                                    "en": "Retrieve your personal data from the dutch personal records database (\"basisregistratie personen\", BRP). You need this information to show who you are. You log in with your DigiD at the municipality of Nijmegen, which offers this for all dutch citizens.",
-                                    "nl": "Haal je persoonsgegevens op uit het basisregistratie personen (BRP). Je hebt deze gegevens nodig om te laten zien wie je bent. Je logt in met je DigiD bij de gemeente Nijmegen die dit voor heel Nederland aanbiedt."
+                                    "nl": "Haal je persoonsgegevens op uit de Basis Registratie Personen. Je hebt deze gegevens nodig om te laten zien wie je bent. Je logt in met DigiD bij de gemeente Nijmegen die deze dienst voor heel Nederland aanbiedt.",
+                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You need this information to show who you are. You log in with your DigiD at the municipality of Nijmegen, which offers this for everyone with a DigiD."
                                 }
                             }
                         ]
@@ -165,8 +177,8 @@
                                 "type": "credential",
                                 "credential": "irma-demo.ivido.login",
                                 "text": {
-                                    "en": "Retrieve your Ivido Login data from Ivido. You can use this to log in at Ivido PHE.",
-                                    "nl": "Haal je Ivido Login-gegevens op bij Ivido. Hiermee kun je bij Ivido PGO inloggen."
+                                    "nl": "Haal je toegangsbewijs op bij Ivido. Zo kun je makkelijk en veilig bij Ivido inloggen.",
+                                    "en": "Retrieve your Ivido login pass. This way you can log at Ivido in easily and safely."
                                 }
                             }
                         ]
