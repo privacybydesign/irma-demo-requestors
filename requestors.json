@@ -10,6 +10,7 @@
             "irma-demo-requestors.ivido.client": {
                 "id": "irma-demo-requestors.ivido.client",
                 "logo": "9c0e7f96ccc27b8159e631ff0a13c20cf9702c40c0f0f827dfe004a849125fda",
+                "color": "#E7DFFE",
                 "title": {
                     "nl": "Ivido PGO",
                     "en": "Ivido PHE"
@@ -99,6 +100,7 @@
             "irma-demo-requestors.ivido.demo-client": {
                 "id": "irma-demo-requestors.ivido.demo-client",
                 "logo": "9c0e7f96ccc27b8159e631ff0a13c20cf9702c40c0f0f827dfe004a849125fda",
+                "color": "#E7DFFE",
                 "title": {
                     "nl": "Ivido PGO",
                     "en": "Ivido PHE"
