@@ -273,18 +273,6 @@
                                 }
                             }
                         ]
-                    ],
-                    [
-                        [
-                            {
-                                "type": "credential",
-                                "credential": "pbdf.ivido.login",
-                                "text": {
-                                    "nl": "Haal je toegangsbewijs op bij Ivido. Zo kun je makkelijk en veilig bij Ivido inloggen.",
-                                    "en": "Retrieve your Ivido login pass. This way you can log at Ivido in easily and safely."
-                                }
-                            }
-                        ]
                     ]
                 ]
             },
@@ -383,18 +371,6 @@
                                 "text": {
                                     "nl": "Haal je AGB-code op van Nuts. Hiermee kun je laten zien dat je in de zorg werkt. Nuts vraagt om je persoonsgegevens om je AGB-code op te zoeken.",
                                     "en": "Retrieve your AGB code from Nuts. With this you can show you work in healthcare. Nuts asks for your personal data to retrieve your AGB code."
-                                }
-                            }
-                        ]
-                    ],
-                    [
-                        [
-                            {
-                                "type": "credential",
-                                "credential": "irma-demo.ivido.login",
-                                "text": {
-                                    "nl": "Haal je toegangsbewijs op bij Ivido. Zo kun je makkelijk en veilig bij Ivido inloggen.",
-                                    "en": "Retrieve your Ivido login pass. This way you can log at Ivido in easily and safely."
                                 }
                             }
                         ]
