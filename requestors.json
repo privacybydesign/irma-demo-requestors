@@ -77,8 +77,8 @@
                                 "type": "credential",
                                 "credential": "pbdf.gemeente.personalData",
                                 "text": {
-                                    "nl": "Haal je persoonsgegevens op uit de Basis Registratie Personen. Je hebt deze gegevens nodig om te laten zien wie je bent. Je logt in met DigiD bij de gemeente Nijmegen die deze dienst voor heel Nederland aanbiedt.",
-                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You need this information to show who you are. You log in with your DigiD at the municipality of Nijmegen, which offers this for everyone with a DigiD."
+                                    "nl": " Haal je persoonsgegevens op uit de Basis Registratie Personen. Je doet dit met DigiD. Met deze gegevens laat je zien wie je bent.",
+                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You do this with DigiD. You need this information to show who you are."
                                 }
                             }
                         ]
@@ -167,8 +167,8 @@
                                 "type": "credential",
                                 "credential": "irma-demo.gemeente.personalData",
                                 "text": {
-                                    "nl": "Haal je persoonsgegevens op uit de Basis Registratie Personen. Je hebt deze gegevens nodig om te laten zien wie je bent. Je logt in met DigiD bij de gemeente Nijmegen die deze dienst voor heel Nederland aanbiedt.",
-                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You need this information to show who you are. You log in with your DigiD at the municipality of Nijmegen, which offers this for everyone with a DigiD."
+                                    "nl": " Haal je persoonsgegevens op uit de Basis Registratie Personen. Je doet dit met DigiD. Met deze gegevens laat je zien wie je bent.",
+                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You do this with DigiD. You need this information to show who you are."
                                 }
                             }
                         ]
@@ -256,8 +256,8 @@
                                 "type": "credential",
                                 "credential": "pbdf.gemeente.personalData",
                                 "text": {
-                                    "nl": "Haal je persoonsgegevens op uit de Basis Registratie Personen. Je hebt deze gegevens nodig om te laten zien wie je bent. Je logt in met DigiD bij de gemeente Nijmegen die deze dienst voor heel Nederland aanbiedt.",
-                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You need this information to show who you are. You log in with your DigiD at the municipality of Nijmegen, which offers this for everyone with a DigiD."
+                                    "nl": " Haal je persoonsgegevens op uit de Basis Registratie Personen. Je doet dit met DigiD. Met deze gegevens laat je zien wie je bent.",
+                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You do this with DigiD. You need this information to show who you are."
                                 }
                             }
                         ]
@@ -357,8 +357,8 @@
                                 "type": "credential",
                                 "credential": "pbdf.gemeente.personalData",
                                 "text": {
-                                    "nl": "Haal je persoonsgegevens op uit de Basis Registratie Personen. Je hebt deze gegevens nodig om te laten zien wie je bent. Je logt in met DigiD bij de gemeente Nijmegen die deze dienst voor heel Nederland aanbiedt.",
-                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You need this information to show who you are. You log in with your DigiD at the municipality of Nijmegen, which offers this for everyone with a DigiD."
+                                    "nl": " Haal je persoonsgegevens op uit de Basis Registratie Personen. Je doet dit met DigiD. Met deze gegevens laat je zien wie je bent.",
+                                    "en": "Retrieve your personal data from the dutch personal records database (\"Basis Registratie Personen\", BRP). You do this with DigiD. You need this information to show who you are."
                                 }
                             }
                         ]
