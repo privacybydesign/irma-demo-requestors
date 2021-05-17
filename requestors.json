@@ -189,14 +189,15 @@
             },
             "irma-demo-requestors.ivido.professional": {
                 "id": "irma-demo-requestors.ivido.professional",
-                "logo": "9c0e7f96ccc27b8159e631ff0a13c20cf9702c40c0f0f827dfe004a849125fda",
+                "logo": "105dd5541c8a11c797501e6d7dd746bd6df9f2690c90f5bef29918822b147d49",
+                "color": "#EAF1F5",
                 "title": {
-                    "nl": "Ivido PGO",
-                    "en": "Ivido PHE"
+                    "nl": "HINQ",
+                    "en": "HINQ"
                 },
                 "info": {
-                    "nl": "## Inloggen bij Ivido\n\nJe hebt een toegangsbewijs nodig om in te loggen bij Ivido. Hiervoor haal je jouw gegevens op in IRMA.",
-                    "en": "## Log in at Ivido\n\nYou need an Ivido pass to login at Ivido. For this you retrieve your data in IRMA."
+                    "nl": "## Inloggen bij HINQ\n\nJe hebt je AGB-code nodig om in te loggen bij HINQ. Hiervoor haal je jouw gegevens op in IRMA.",
+                    "en": "## Log in at HINQ\n\nYou need your AGB code to login at HINQ. For this you retrieve your data in IRMA."
                 },
                 "faq": [
                     {
@@ -225,18 +226,18 @@
                             "en": "How does it work?"
                         },
                         "answer": {
-                            "nl": "Jouw inloggegevens worden alleen opgeslagen in de IRMA app op jouw telefoon. Om in te loggen bij Ivido laat je met de IRMA app zien wie je bent.",
-                            "en": "Your login data are stored only in your IRMA app on your phone. To log in at Ivido you show who you are with your IRMA app."
+                            "nl": "Jouw inloggegevens worden alleen opgeslagen in de IRMA app op jouw telefoon. Om in te loggen bij HINQ laat je met de IRMA app zien wie je bent.",
+                            "en": "Your login data are stored only in your IRMA app on your phone. To log in at HINQ you show who you are with your IRMA app."
                         }
                     },
                     {
                         "question": {
-                            "nl": "Wat is Ivido?",
-                            "en": "What is Ivido?"
+                            "nl": "Wat is HINQ?",
+                            "en": "What is HINQ?"
                         },
                         "answer": {
-                            "nl": "Ivido is een Persoonlijke Gezondheidsomgeving (afgekort: PGO). In Ivido kun je alles over jouw gezondheid opslaan. Je kiest zelf met wie je deze gegevens deelt. Je gebruikt IRMA om te registreren en in te loggen op Ivido.",
-                            "en": "Ivido is a Personal Health Environment (PHE, dutch: PHO). In Ivido you can store everything about your healt. You choose yourself with who you share this data. You use IRMA to register and log in at Ivido."
+                            "nl": "HINQ is een Zorgnetwerk Omgeving (afgekort: ZNO). Met HINQ kun je een digitale behandelrelatie aangaan met je cliënten en samenwerken met andere zorgverleners. Je gebruikt IRMA om te registreren en in te loggen op HINQ.",
+                            "en": "HINQ is a Health Network Environment. HINQ enables you to start a digital treatment relationship with your clients and collaborate with other healthcare professionals. You use IRMA to register and log in to HINQ."
                         }
                     }
                 ],
@@ -245,8 +246,8 @@
                     "en": "Done!"
                 },
                 "successText": {
-                    "nl": "Je kunt nu inloggen bij Ivido.",
-                    "en": "Je kunt nu inloggen bij Ivido."
+                    "nl": "Je kunt nu inloggen bij HINQ.",
+                    "en": "Je kunt nu inloggen bij HINQ."
                 },
                 "expandDependencies": false,
                 "contents": [
@@ -268,8 +269,8 @@
                                 "type": "credential",
                                 "credential": "pbdf.nuts.agb",
                                 "text": {
-                                    "nl": "Haal je AGB-code op van Nuts. Hiermee kun je laten zien dat je in de zorg werkt. Nuts vraagt om je persoonsgegevens om je AGB-code op te zoeken.",
-                                    "en": "Retrieve your AGB code from Nuts. With this you can show you work in healthcare. Nuts asks for your personal data to retrieve your AGB code."
+                                    "nl": "Haal je AGB-code op bij Nuts. Hiermee laat je zien dat je in de zorg werkt. Nuts vraagt om je persoonsgegevens om je AGB-code op te zoeken.",
+                                    "en": "Retrieve your AGB code at Nuts to you show that you work in healthcare. Nuts asks for your personal data to retrieve your AGB code."
                                 }
                             }
                         ]
@@ -278,14 +279,15 @@
             },
             "irma-demo-requestors.ivido.demo-professional": {
                 "id": "irma-demo-requestors.ivido.demo-professional",
-                "logo": "9c0e7f96ccc27b8159e631ff0a13c20cf9702c40c0f0f827dfe004a849125fda",
+                "logo": "105dd5541c8a11c797501e6d7dd746bd6df9f2690c90f5bef29918822b147d49",
+                "color": "#EAF1F5",
                 "title": {
-                    "nl": "Ivido PGO",
-                    "en": "Ivido PHE"
+                    "nl": "HINQ",
+                    "en": "HINQ"
                 },
                 "info": {
-                    "nl": "## Inloggen bij Ivido\n\nJe hebt een toegangsbewijs nodig om in te loggen bij Ivido. Hiervoor haal je jouw gegevens op in IRMA.",
-                    "en": "## Log in at Ivido\n\nYou need an Ivido pass to login at Ivido. For this you retrieve your data in IRMA."
+                    "nl": "## Inloggen bij HINQ\n\nJe hebt je AGB-code nodig om in te loggen bij HINQ. Hiervoor haal je jouw gegevens op in IRMA.",
+                    "en": "## Log in at HINQ\n\nYou need your AGB code to login at HINQ. For this you retrieve your data in IRMA."
                 },
                 "faq": [
                     {
@@ -314,18 +316,18 @@
                             "en": "How does it work?"
                         },
                         "answer": {
-                            "nl": "Jouw inloggegevens worden alleen opgeslagen in de IRMA app op jouw telefoon. Om in te loggen bij Ivido laat je met de IRMA app zien wie je bent.",
-                            "en": "Your login data are stored only in your IRMA app on your phone. To log in at Ivido you show who you are with your IRMA app."
+                            "nl": "Jouw inloggegevens worden alleen opgeslagen in de IRMA app op jouw telefoon. Om in te loggen bij HINQ laat je met de IRMA app zien wie je bent.",
+                            "en": "Your login data are stored only in your IRMA app on your phone. To log in at HINQ you show who you are with your IRMA app."
                         }
                     },
                     {
                         "question": {
-                            "nl": "Wat is Ivido?",
-                            "en": "What is Ivido?"
+                            "nl": "Wat is HINQ?",
+                            "en": "What is HINQ?"
                         },
                         "answer": {
-                            "nl": "Ivido is een Persoonlijke Gezondheidsomgeving (afgekort: PGO). In Ivido kun je alles over jouw gezondheid opslaan. Je kiest zelf met wie je deze gegevens deelt. Je gebruikt IRMA om te registreren en in te loggen op Ivido.",
-                            "en": "Ivido is a Personal Health Environment (PHE, dutch: PHO). In Ivido you can store everything about your healt. You choose yourself with who you share this data. You use IRMA to register and log in at Ivido."
+                            "nl": "HINQ is een Zorgnetwerk Omgeving (afgekort: ZNO). Met HINQ kun je een digitale behandelrelatie aangaan met je cliënten en samenwerken met andere zorgverleners. Je gebruikt IRMA om te registreren en in te loggen op HINQ.",
+                            "en": "HINQ is a Health Network Environment. HINQ enables you to start a digital treatment relationship with your clients and collaborate with other healthcare professionals. You use IRMA to register and log in to HINQ."
                         }
                     }
                 ],
@@ -334,8 +336,8 @@
                     "en": "Done!"
                 },
                 "successText": {
-                    "nl": "Je kunt nu inloggen bij Ivido.",
-                    "en": "Je kunt nu inloggen bij Ivido."
+                    "nl": "Je kunt nu inloggen bij HINQ.",
+                    "en": "Je kunt nu inloggen bij HINQ."
                 },
                 "expandDependencies": false,
                 "contents": [
@@ -369,8 +371,8 @@
                                     "en": "Retrieve Demo AGB code"
                                 },
                                 "text": {
-                                    "nl": "Haal je AGB-code op van Nuts. Hiermee kun je laten zien dat je in de zorg werkt. Nuts vraagt om je persoonsgegevens om je AGB-code op te zoeken.",
-                                    "en": "Retrieve your AGB code from Nuts. With this you can show you work in healthcare. Nuts asks for your personal data to retrieve your AGB code."
+                                    "nl": "Haal je AGB-code op bij Nuts. Hiermee laat je zien dat je in de zorg werkt. Nuts vraagt om je persoonsgegevens om je AGB-code op te zoeken.",
+                                    "en": "Retrieve your AGB code at Nuts to you show that you work in healthcare. Nuts asks for your personal data to retrieve your AGB code."
                                 }
                             }
                         ]
