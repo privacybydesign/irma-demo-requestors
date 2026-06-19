@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        irmago-version:
+        yivi-version:
          - v1.0.0 # Introduces Yivi CLI tool
          - latest
     steps:
@@ -22,14 +22,14 @@ jobs:
          echo "$HOME/.local/bin" >> $GITHUB_PATH
          
      - name: Download yivi CLI tool (latest)
-       if: matrix.irmago-version == 'latest'
+       if: matrix.yivi-version == 'latest'
        run: wget -O "$HOME/.local/bin/yivi" https://github.com/privacybydesign/irmago/releases/latest/download/yivi-linux-amd64
 
      - name: Download yivi CLI tool (specific version)
-       if: matrix.irmago-version != 'latest'
+       if: matrix.yivi-version != 'latest'
        run: |
-         wget -O "$HOME/.local/bin/yivi" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.irmago-version }}/yivi-linux-amd64 \
-         || wget -O "$HOME/.local/bin/yivi" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.irmago-version }}/yivi-master-linux-amd64
+         wget -O "$HOME/.local/bin/yivi" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.yivi-version }}/yivi-linux-amd64 \
+         || wget -O "$HOME/.local/bin/yivi" https://github.com/privacybydesign/irmago/releases/download/${{ matrix.yivi-version }}/yivi-master-linux-amd64
        shell: bash
 
      - name: Set executable permissions
